@@ -6,7 +6,7 @@ public class ThreeDigitNumbers2 {
             int b = Integer.parseInt(String.valueOf(k.charAt(1)));
             int c = Integer.parseInt(String.valueOf(k.charAt(2)));
             if (a != b && b != c && c != a)
-                System.out.println("" + a + b + c);
+                System.out.print("" + a + b + c + ", ");
         }
     }
 }
