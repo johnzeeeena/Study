@@ -4,7 +4,7 @@ public class ThreeDigitNumbers1 {
             String k = String.valueOf(i);
             char[] s = k.toCharArray();
             if (s[0] != s[1] && s[1] != s[2] && s[2] != s[0])
-                System.out.println("" + s[0] + s[1] + s[2]);
+                System.out.println("" /*+ s[0] + s[1] + s[2]*/+ Integer.parseInt(String.copyValueOf(s)));
 
         }
     }
